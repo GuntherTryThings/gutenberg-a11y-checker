@@ -32,7 +32,7 @@ final class GutenbergA11yChecker
     public static function register()
     {
         $handle = 'GutenbergA11YInstance';
-        $src = plugin_dir_url(__FILE__) . '/assets/instance.js';
+        $src = plugin_dir_url(__FILE__) . '/assets/bundle.js';
         $deps = null;
         $ver = false;
         $in_footer = true;
